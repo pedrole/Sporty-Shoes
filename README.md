@@ -31,72 +31,72 @@ The admin is able:
 
 ## File Structure
 
-├───main
-│   ├───java
-│   │   └───com
-│   │       └───caltech
-│   │           └───sportyshoes
-│   │               │   ServletInitializer.java
-│   │               │   SportyShoesApplication.java
-│   │               │
-│   │               ├───config
-│   │               │       WebSecurityConfig.java
-│   │               │
-│   │               ├───controllers
-│   │               │       BrandController.java
-│   │               │       IndexController.java
-│   │               │       OrderController.java
-│   │               │       ProductController.java
-│   │               │       UserController.java
-│   │               │
-│   │               ├───dao
-│   │               │       BrandDAO.java
-│   │               │       OrderDAO.java
-│   │               │       ProductDAO.java
-│   │               │       UserDAO.java
-│   │               │       UserDetailsServiceImplementation.java
-│   │               │
-│   │               ├───pojo
-│   │               │       Brand.java
-│   │               │       MyUsersDetails.java
-│   │               │       Order.java
-│   │               │       Product.java
-│   │               │       User.java
-│   │               │
-│   │               └───repositories
-│   │                       BrandRepository.java
-│   │                       OrderRepossitory.java
-│   │                       ProductRepository.java
-│   │                       UserRepository.java
-│   │
-│   ├───resources
-│   │   │   application.properties
-│   │   │
-│   │   ├───static
-│   │   └───templates
-│   └───webapp
-│       │   addBrand.jsp
-│       │   addProduct.jsp
-│       │   brands.jsp
-│       │   editBrand.jsp
-│       │   editProduct.jsp
-│       │   header.jsp
-│       │   index.jsp
-│       │   orders.jsp
-│       │   products.jsp
-│       │   profile.jsp
-│       │   register.jsp
-│       │   users.jsp
-│       │
-│       └───css
-│               style.css
-│
-└───test
-    └───java
-        └───com
-            └───example
-                └───demo
-                        SportyShoesApplicationTests.java
+├───main  
+│   ├───java  
+│   │   └───com  
+│   │       └───caltech  
+│   │           └───sportyshoes  
+│   │               │   ServletInitializer.java  
+│   │               │   SportyShoesApplication.java  
+│   │               │  
+│   │               ├───config  
+│   │               │       WebSecurityConfig.java  
+│   │               │  
+│   │               ├───controllers  
+│   │               │       BrandController.java  
+│   │               │       IndexController.java  
+│   │               │       OrderController.java  
+│   │               │       ProductController.java    
+│   │               │       UserController.java  
+│   │               │  
+│   │               ├───dao  
+│   │               │       BrandDAO.java  
+│   │               │       OrderDAO.java  
+│   │               │       ProductDAO.java  
+│   │               │       UserDAO.java  
+│   │               │       UserDetailsServiceImplementation.java  
+│   │               │  
+│   │               ├───pojo  
+│   │               │       Brand.java  
+│   │               │       MyUsersDetails.java<br>
+│   │               │       Order.java  
+│   │               │       Product.java  
+│   │               │       User.java  
+│   │               │  
+│   │               └───repositories  
+│   │                       BrandRepository.java  
+│   │                       OrderRepossitory.java  
+│   │                       ProductRepository.java  
+│   │                       UserRepository.java  
+│   │  
+│   ├───resources  
+│   │   │   application.properties  
+│   │   │  
+│   │   ├───static  
+│   │   └───templates  
+│   └───webapp  
+│       │   addBrand.jsp  
+│       │   addProduct.jsp  
+│       │   brands.jsp  
+│       │   editBrand.jsp  
+│       │   editProduct.jsp  
+│       │   header.jsp  
+│       │   index.jsp  
+│       │   orders.jsp  
+│       │   products.jsp  
+│       │   profile.jsp  
+│       │   register.jsp  
+│       │   users.jsp  
+│       │  
+│       └───css  
+│               style.css  
+│  
+└───test  
+    └───java  
+        └───com  
+            └───example  
+                └───demo  
+                        SportyShoesApplicationTests.java  
 
 ## Screenshots
 ![Sign In](Screenshots/sign_in.png)
