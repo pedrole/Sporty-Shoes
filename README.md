@@ -30,13 +30,13 @@ The admin is able:
 | Spring Security Starter | --- | 
 
 ## Screenshots
-![Sign In](screenshots/sign_in.png)
-![Register](screenshots/register.png)
-![Index](screenshots/index_admin_logged_in.png)
-![Product Listing](screenshots/product_listing.png)
-![List Orders](screenshots/list_orders.png)
-![List Users](screenshots/search_signedup_users.png)
-![List Users](screenshots/Brand_Listing.png)
+![Sign In](Screenshots/sign_in.png)
+![Register](Screenshots/register.png)
+![Index](Screenshots/index_admin_logged_in.png)
+![Product Listing](Screenshots/product_listing.png)
+![List Orders](Screenshots/list_orders.png)
+![List Users](Screenshots/search_signedup_users.png)
+![List Users](Screenshots/Brand_Listing.png)
 
 ## Installation
 
