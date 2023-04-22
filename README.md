@@ -6,7 +6,7 @@
 # Sporty Shoes
 
 
-![Product Logo](screenshots/logo.jpg)
+![Product Logo](Screenshots/logo.jpg)
 
 ## Description
 
